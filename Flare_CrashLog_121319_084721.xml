@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapExceptionLog protocol="1" executable="Flare" executableVersion="15.1.7286.12795" localDate="2019-12-13T08:47:21.4637416-08:00">
+    <OS arch="x64" frameworkVersion="4.0.30319.42000" version="Microsoft Windows NT 10.0.17763.0" />
+    <Exception type="System.NullReferenceException" message="Object reference not set to an instance of an object." stackTrace="   at B3.XmlTextKit.BoxLayout.DetachRootBox()&#xD;&#xA;   at B3.XmlTextKit.BoxLayout.Layout1(Int32 maxwidth, Int32 maxheight)&#xD;&#xA;   at B3.XmlTextKit.BoxLayout.Layout(Int32 maxwidth, Int32 maxheight)&#xD;&#xA;   at B3.XmlTextKit.BoxLayout.LayoutBoxView(BoxView view)&#xD;&#xA;   at B3.XmlTextKit.BoxView.UpdateBoxLayout1(BoxLayout layout, Int32 maxWidthArg)&#xD;&#xA;   at B3.XmlTextKit.BoxView.UpdateBoxLayout(BoxLayout layout, Int32 maxWidth, Boolean resetSelection)&#xD;&#xA;   at B3.XmlTextKit.BoxView.AutoUpdateLinkedResources()&#xD;&#xA;   at B3.XmlEditorKit.XmlEditor.OnFileSystemChangedOutside(FileSystemEventArgs e)&#xD;&#xA;   at B3.AppKit.Editor.OnFileSystemChangedOutside(FileSystemEventArgs e)" source="B3.XmlTextKit" />
+    <User machineID="778cf5e256fa26601e34dfc1ac8d02cd26d8d958" />
+</MadCapExceptionLog>
